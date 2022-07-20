@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="a8.js" defer></script>
+    <title>CPSC 1045 Assignment 8</title>
+</head>
+<body>
+    <h1>CPSC 1045 Assignment 8</h1>
+
+    <h3>Question 1</h3>
+    Enter a sentence: <input id="sentence" type="text"><br><br>
+    Enter a letter: <input id="letter" type="text"><br><br>
+    <button id="parStrButton" onclick="parseString()">Parse String</button>
+
+    <p id="stringOutput">The letter appears in the string</p>
+
+    <h3>Question 2</h3>
+    Enter a height for our square: <input id="squareHeight" type="text">
+    <button onclick="drawSquare()">Draw Square</button>
+    <p id="squareOutput">Output goes here</p>
+
+    <h3>Question 3</h3>
+
+    <p>Click on the canvas!</p>
+
+    <canvas onclick="clickCircle(event)" id="myCanvas" width="200" height="200" style="border: 5px solid black;"></canvas>
+</body>
+</html>
