@@ -32,6 +32,7 @@ function Circle(x, y){
         circle1.draw();
         circles.push(circle1);
     }
+// trial draw() function before making Circle(x,y) constructor
 
 //     function draw(event){
 
