@@ -1,5 +1,4 @@
-# Lab-homework
-Collection of Web Programming homework
+ # Collection of Web Programming homework
 
 - Contains some Lab exercises and Assignments
 
